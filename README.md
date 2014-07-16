@@ -4,11 +4,11 @@ A web based (ASP) notices system to display different notices to different depar
 
 Requirements
 ============
-<ol>
+<ul>
 <li>Windows server with Classic ASP enabled</li>
 <li>PHP</li>
 <li>read/write access to DB file.</li>
-</ol>
+</ul>
 
 Feature
 =======
