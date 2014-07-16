@@ -1,0 +1,29 @@
+/* Note: iTextSharp does not fully support standard CSS property names. */
+body {
+	face: Helvetica; /* font name */
+	size: 1; /* font size - DO NOT CHANGE! */
+}
+/* table for PDF export */
+.ewTablePdf {
+	border: 0.5; /* grid border */
+	size: 1; /* font size - DO NOT CHANGE! */
+	width: 100%;
+}
+/* table header */
+.ewTablePdfHeader {
+	bgcolor: #282828;	/* header bgcolor */
+	color: #FFFFFF; /* header font color */
+	valign: top; 	
+}
+/* row color */
+.ewTableRow {
+	bgcolor: #FFFFFF;  /* alt row color 1 */
+}
+/* alternate row color */
+.ewTableAltRow {
+	bgcolor: #FFFFFF; /* alt row color 2 */
+}
+/* main table footer */
+.ewTablePdfFooter {
+	bgcolor: #ADD8E6; /* footer color */
+}

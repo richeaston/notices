@@ -1,0 +1,18 @@
+Subject: <!--$Subject-->
+From: <!--$From-->
+To: <!--$To-->
+Cc:
+Bcc:
+Format: HTML
+
+<font face="corbel">
+Kevi Notices System<br/>
+<!--action--><BR><BR>
+<font size="xx-small" color="red">
+Note: this e-mail was sent from a notification-only e-mail address that cannot accept incoming e-mail.<BR>
+Please do not reply to this message.
+</font>
+<BR>
+<BR>
+<a href="http://www.sellostring.com" target="_new">Sellostring</a> &copy;2014 - Richard Easton, All rights reserved.
+</font>

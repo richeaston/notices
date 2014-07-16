@@ -1,0 +1,238 @@
+.myuser {
+color: yellow;
+text-decoration: italic !important;
+}
+
+.scrollerbg {
+background: transparent;
+}
+
+.nitem {
+padding: 5px;
+background: #eee;
+border: 1px solid #dddddd;
+border-radius: 8px;
+box-shadow: 1px 1px 2px #0a0a0a;
+font-family: Verdana;
+margin-bottom: 10px;
+width: 470px;
+word-wrap:break-word !important;
+color: #0a0a0a !important;
+}
+
+.frog {
+background: transparent;
+margin-left: 10px;
+margin-top:0;
+}
+
+.frogitem {
+background: #ffffff;
+border-top: 2px double #000000;
+border-bottom: 2px double #000000;
+color: #0a0a0a !important;
+font-family: verdana;
+font-size: 18px;
+padding: 8px;
+margin-left: 10px;
+margin-top:10px;
+margin-bottom: 10px;
+width: 95%;
+-webkit-font-smoothing: antialiased;
+text-transform: justify;
+border-radius: 6px;
+box-shadow: 2px 2px 4px #0a0a0a;
+}
+
+.gmsg {
+animation:mymove 2s;
+-webkit-animation:mymove 2s; /* Safari and Chrome */
+background: #cc0000;
+background: -moz-linear-gradient(top,  #cc0000 0%, #a5000b 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cc0000), color-stop(100%,#a5000b));
+background: -webkit-linear-gradient(top,  #cc0000 0%,#a5000b 100%);
+background: -o-linear-gradient(top,  #cc0000 0%,#a5000b 100%);
+background: -ms-linear-gradient(top,  #cc0000 0%,#a5000b 100%);
+background: linear-gradient(to bottom,  #cc0000 0%,#a5000b 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc0000', endColorstr='#a5000b',GradientType=0 );
+border: 2px solid #720404;
+border-radius: 4px;
+box-shadow: 4px 4px 4px #757575;
+color: #ffffff;
+font-weight: 100;
+font-family: arial;
+float: right;
+opacity:0.9;
+overflow: hidden;
+padding: 15px;
+position: absolute;
+right: 20px;
+text-shadow: 1px 1px 2px #0a0a0a;
+top: 20px;
+width: 250px;
+-webkit-font-smoothing: antialiased;
+line-height: 0.8;
+z-index: 1;
+}
+
+.gmsg button {
+position: relative;
+top: -10px;
+right: -10px;
+opacity: 1;
+color: whitesmoke;
+-webkit-font-smoothing: antialiased;
+
+}
+
+.gmsg-count {
+color: yellow;
+font-weight: bold;
+-webkit-font-smoothing: antialiased;
+}
+
+.yeartitle {
+background: #0a0a0a;
+color: whitesmoke;
+padding: 2px 20px 2px 20px;
+text-align: center;
+margin-top: 10px;
+margin-bottom: 10px;
+border-radius: 4px;
+width: 100%;
+-webkit-font-smoothing: antialiased;
+
+}
+
+.tshadow {
+text-shadow: 1px 1px 2px #0a0a0a;
+/*text-indent: 10px;*/
+/*border-bottom: 2px solid #FF0707;*/
+
+}
+
+
+.noticecontent {
+background-image: url('/images/notecard.png') !important;
+padding: 10px;
+color: #0a0a0a;
+line-height: 1.1;
+font-family: 'Raleway', sans-serif;
+text-shadow: 1px 1px 2px #c0c0c0;
+
+}
+
+.noticeauthor { 
+margin-bottom: 10px;
+font-size: small;
+line-height: 1.1;
+}
+
+
+
+
+@keyframes movenotice
+{
+0% {bottom: 0px;}
+75%  {top: -10px;}
+85%  {top: 20px;}
+90% {top: 0px;}
+100% {top: 20px;}
+}
+
+
+@keyframes mymove
+{
+0%   {top:-250px;}
+75% {top:50px;}
+85%  {top:15px;}
+90%  {top:25px;}
+95%  {top:15px;}
+100% {top:20px;}
+}
+
+@-webkit-keyframes mymove /* Safari and Chrome */
+{
+0%   {top:-250px;}
+75% {top:50px;}
+85%  {top:15px;}
+90%  {top:25px;}
+95%  {top:15px;}
+100% {top:20px;}
+}
+
+
+/* notepaper test css */
+.notepad {
+    background: #f6f6f6;
+    box-shadow: 0 1px 4px hsla(0,0%,0%,.25);
+    margin: 15px auto;
+    position: relative;
+    background-image: -webkit-radial-gradient(#e6e6e6 21%, transparent 21%),
+                      -webkit-radial-gradient(hsla(0,0%,0%,.25) 21%, transparent 26%),
+                      -webkit-linear-gradient(top, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,0) 95%,
+                                                   hsla(210, 60%, 60%,.5) 95%, hsla(210, 60%, 60%,.5) 100%);
+    background-image: -moz-radial-gradient(#e6e6e6 21%, transparent 21%),
+                      -moz-radial-gradient(#e6e6e6 10%, transparent 12%),
+                      -moz-linear-gradient(top, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,0) 95%,
+                                                   hsla(210, 60%, 60%,.5) 95%, hsla(210, 60%, 60%,.5) 100%);
+    background-image: radial-gradient(#e6e6e6 21%, transparent 21%),
+                      radial-gradient(#e6e6e6 10%, transparent 12%), 
+                      linear-gradient(top, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,0) 95%,
+                                                   hsla(210, 60%, 60%,.5) 95%, hsla(210, 60%, 60%,.5) 100%);
+    background-position: 6px 6px, 6px 5px, 50% 18px;
+    background-repeat: repeat-y, repeat-y, repeat;
+    background-size: 48px 48px, 48px 48px, 24px 24px;
+    padding: 1px 24px 24px 74px;
+}
+.notepad:after {
+    border-left: 1px solid hsla(0,75%,50%,.2);
+    border-right: 1px solid hsla(0,75%,50%,.2);
+    bottom: 0;
+    content: '';
+    left: 58px;
+    position: absolute;
+    top: 0;
+    width: 2px;
+}
+.notepad:before {
+    bottom: 8px;
+    border-radius: 4px;
+    box-shadow: 0 10px 10px hsla(0,0%,0%,.25);
+    content: '';
+    height: 100px;
+    max-width: 300px;
+    position: absolute;
+    right: 5px;
+    width: 300px;
+    z-index: -10; 
+    -webkit-transform: rotate(2deg);    
+       -moz-transform: rotate(2deg);   
+        -ms-transform: rotate(2deg);   
+         -o-transform: rotate(2deg);
+            transform: rotate(2deg);
+}
+p {
+    color: #333;
+    font: 20px/26px 'Raleway', sans-serif;
+    margin-bottom: 24px;
+}
+p:first-child:first-line {
+    font-family: 'Raleway', sans-serif;
+;
+}
+p:first-child:first-letter {
+    color: #444;
+    float: left;
+    font-family: 'Raleway', sans-serif;
+}
+/*
+ul {
+    color: #333;
+    font: italic 16px/24px serif;
+    line-height: 24px;
+    -webkit-column-count: 2;
+       -moz-column-count: 2;
+            column-count: 2;
+}
+*/
